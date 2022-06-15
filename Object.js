@@ -18,3 +18,6 @@ for (let x in person) {
 
 }
 console.log(text)
+
+delete person.age
+console.log(person)
