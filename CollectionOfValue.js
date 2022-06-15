@@ -36,3 +36,16 @@ const object = {
 
 console.log(object)
 console.log(object.property1 + object.property2 + " " + object.property3)
+
+
+let newObject = {
+    property1 : "Hello",
+    property2 : function(){
+        console.log("I am method now.")
+    }
+}
+console.log(newObject)
+console.log(newObject.property1)
+// or object property call
+console.log(newObject["property1"])
+newObject.property2();
