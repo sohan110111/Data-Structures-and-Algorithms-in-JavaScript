@@ -28,4 +28,11 @@ console.log(multiDimensionalArray[0].length)
 
 
 //Objects (hash tables)
+const object = {
+    property1 : "I",
+    property2 : "am an",
+    property3 : "Object" 
+}
 
+console.log(object)
+console.log(object.property1 + object.property2 + " " + object.property3)
