@@ -49,3 +49,13 @@ console.log(newObject.property1)
 // or object property call
 console.log(newObject["property1"])
 newObject.property2();
+
+let personOneLikeFoodItem = {
+    // item : price
+    egg : 10,
+    pizza : 100,
+    chicken : 120,
+    desert : 200
+}
+
+console.log("Total cost of person one : ", personOneLikeFoodItem["egg"] + personOneLikeFoodItem["desert"] + personOneLikeFoodItem["chicken"] + personOneLikeFoodItem["pizza"]);
