@@ -12,7 +12,7 @@ int main() {
         i++;
     }
     printf("\0");// nothing print
-    printf("%d\n", i);
+    printf("\n%d\n", i); // string length print
 
 
     return 0;
