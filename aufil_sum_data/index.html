@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>on key to auto fill total input field</title>
+</head>
+<body>
+    <input type="text" id="first" onkeyup="sum()">
+    <input type="text" id="second" onkeyup="sum()">
+    <input type="text" id="total">
+    <br>
+    <!-- submit button click it store data in database -->
+    <script>
+        function sum(){
+            var first = document.getElementById('first').value;
+            var second = document.getElementById('second').value;
+            var result = parseInt(first) + parseInt(second);
+            if(!isNaN(result)){
+                document.getElementById('total').value = result;
+            }
+        }
+    </script>
+</body>
+</html>
